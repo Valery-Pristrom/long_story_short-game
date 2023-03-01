@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "ShantellSansBold";
+    src: local("ShantellSansBold"),
+    url("../assets/fonts/ShantellSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "ShantellSansRegular";
+    src: local("ShantellSansRegular"),
+    url("../assets/fonts/ShantellSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }

@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+@import "../../styles/fonts";
+
+.btn__settings {
+    padding: 5px;
+    background-color: transparent;
+    font-family: $font-family-text;
+    border: none;
+    &:hover{
+        background-color: $color-background-hover;
+        transition: 0.3s;
+        color: white;
+    }
+    &:active{
+        background-color: $color-background-active;
+        color: white;
+    }
+}
