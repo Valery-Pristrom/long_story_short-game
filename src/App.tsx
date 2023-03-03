@@ -4,6 +4,7 @@ import { Button } from './components/Button/Button';
 import { IconQuit } from './components/Icon/IconQuit';
 import { IconRightArrow } from './components/Icon/IconRightArrow';
 import { IconRules } from './components/Icon/IconRules';
+import { IconSuccess } from './components/Icon/IconSuccess';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <IconRightArrow className='icon'/>
       <IconQuit className='icon'/>
       <IconRules className='icon'/>
+      <IconSuccess/>
     </div>
   );
 }
