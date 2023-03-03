@@ -6,13 +6,26 @@
     background-color: transparent;
     font-family: $font-family-text;
     border: none;
+    display: flex;
+    align-items: center;
     &:hover{
         background-color: $color-background-hover;
         transition: 0.3s;
         color: white;
+        .icon {
+            fill: white;
+            transition: 0.3s;
+        }
     }
     &:active{
         background-color: $color-background-active;
         color: white;
+        .icon {
+            fill: white;
+            transition: 0.3s;
+        }
+    }
+    .icon {
+        fill: $color-primary;
     }
 }
